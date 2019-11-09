@@ -1,0 +1,10 @@
+How do I create a hidden file or folder? How do I display it in the CLI?
+$ aatrib +h folder name
+$ aatrib -h folder name
+
+How do I create multiple nested directories, like /c/Users/myusername/these/folders/are/just/for/fun?
+$mkdir -p folder/folder1/folder2
+
+How do I append a message to a file, without a newline character, so the output would be:?
+$ echo "first message" > w.txt
+$echo "second message " >> w.txt
