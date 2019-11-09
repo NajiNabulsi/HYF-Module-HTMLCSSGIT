@@ -1,0 +1,18 @@
+body {
+    background-color: rgb(91, 127, 189);
+    padding: 10px 30px;
+    height: 300px;
+}
+
+ul {
+    margin-left: 30%;
+}
+
+.copyright {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+}
+
+.copyright a {
+    font-style: normal;
+}

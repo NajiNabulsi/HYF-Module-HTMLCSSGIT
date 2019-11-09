@@ -1,0 +1,45 @@
+:root{
+    --basicColour: sienna;
+}
+body{
+    padding: 30px;
+   
+}
+a{
+    text-decoration-line: none;
+    color: var(--basicColour);
+}
+dt{
+    font-size: 1.5rem;
+}
+
+h1{
+   visibility: hidden;
+}
+blockquote{
+    float: right;
+    margin-top:8rem ;
+    font-size: 2.5rem;
+    font-family: cursive;
+}
+#logo{
+    float: left;
+}
+#content{
+    margin-top: 0rem;
+}
+#content-side{
+    clear: both;
+    float: left;
+    width: 25%;
+    margin-right: 5px;
+    box-sizing: border-box;
+
+}
+#content-main{
+    float:right;
+    width: 70%;
+    box-sizing: border-box;
+
+
+}

@@ -1,0 +1,68 @@
+:root {
+    --navColor: rgb(181, 182, 125);
+}
+
+body {
+    background-color: rgb(84, 112, 74);
+    align-items: center;
+}
+
+#wrap {
+    width: 70%;
+    margin: auto;
+}
+
+#header {
+    background-color: var(--navColor);
+    height: 100px;
+}
+
+#header h1 {
+    float: right;
+    margin-right: 50px;
+}
+
+#nav {
+    background-color: rgb(104, 157, 89);
+    border-bottom: 5px white dashed;
+    padding: 10PX;
+    margin: 1px 0px;
+}
+
+#nav li {
+    display: inline;
+    padding: 20px;
+}
+
+#sidebar {
+    float: right;
+    background-color: var(--navColor);
+    width: 20%;
+    padding: 10px;
+    box-sizing: border-box;
+    height: 480px;
+}
+
+#sidebar ul {
+    list-style-type: disc;
+}
+
+#content {
+    float: left;
+    background-color: rgb(115, 143, 105);
+    width: 80%;
+    text-align: center;
+    padding: 15px;
+    box-sizing: border-box;
+    height: 480px;
+}
+
+#content ul {
+    list-style-type: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#footer {
+    clear: both;
+    text-align: center;
+}

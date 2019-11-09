@@ -1,0 +1,24 @@
+body{
+    background-color: chocolate;
+    
+}
+#wrap{
+ border: 1px dashed black;   
+width: 75%;
+border: 2px black dashed;
+margin: auto;
+background-color: burlywood;
+text-align: center;
+}
+h1{
+    border-bottom: 2px dashed black ;
+}
+ul{
+    list-style-type: none;
+}
+li::first-letter {
+font-size: 200%;  
+}
+li{
+    font-style: italic;
+}
