@@ -1,0 +1,163 @@
+    body {
+        font-family: 'Quicksand', sans-serif;
+        padding: 0px;
+        margin: 0px;
+        background-color: rgb(248, 237, 237);
+        text-align: center;
+    }
+    
+    h1 {
+        letter-spacing: 3rem;
+        color: rgb(209, 225, 240);
+        position: relative;
+        font-size: 5rem;
+    }
+    /*global*/
+    
+    header {
+        width: 90%;
+        height: 500px;
+        margin: auto;
+        text-align: right;
+        background-image: url("images/drone-sky.jfif");
+        background-size: cover;
+        display: flex;
+        align-items: flex-end;
+        justify-content: flex-end;
+    }
+    
+    section {
+        width: 90%;
+        margin: auto;
+    }
+    
+    img {
+        width: 10em;
+        height: 10em;
+    }
+    
+    h2 {
+        color: red;
+        margin-top: 2rem;
+        margin-left: 2.3em;
+        font-size: 2.5rem;
+        padding: 25px;
+        clear: both;
+    }
+    
+    .grid-item {
+        list-style: none;
+        padding: 10px;
+        margin: 10px;
+        width: 20%;
+        height: 32rem;
+    }
+    
+    .grid-item:hover {
+        box-shadow: 5px 5px 8px rgba(131, 86, 86, 0.315), -3px 0px 8px rgba(172, 149, 149, 0.315);
+        background-color: rgb(245, 223, 223);
+    }
+    /*end global*/
+    
+    #grid-floats {
+        text-align: center;
+        width: 100%;
+        margin: auto;
+    }
+    
+    #grid-floats .grid-item {
+        float: left;
+    }
+    
+    .grid-item:nth-child(1) {
+        width: 45%;
+        margin: 15px;
+        box-sizing: border-box;
+    }
+    
+    .grid-item:nth-child(2) {
+        width: 45%;
+        margin: 15px;
+        box-sizing: border-box;
+        float: right;
+    }
+    
+    img {
+        padding: 5px;
+        justify-self: center;
+        transition-property: transform;
+        transition-duration: 1s;
+    }
+    
+    img:hover {
+        cursor: zoom-in;
+        transform: scale(2, 2);
+    }
+    
+    .grid-item h3 {
+        color: rgb(240, 40, 40);
+    }
+    
+    #grid-flex {
+        clear: both;
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+        align-content: center;
+    }
+    /* media queries  */
+    /* media queries smaller than 600px  */
+    
+    @media (max-width: 600px) {
+        section {
+            margin: 0px;
+            padding: 0px;
+            width: 100%;
+            margin-left: 0px;
+        }
+        .grid-item:nth-child(1) {
+            width: 93%;
+            box-sizing: border-box;
+        }
+        .grid-item:nth-child(2) {
+            width: 45%;
+            box-sizing: border-box;
+            height: 32rem;
+            margin: 10px;
+        }
+        .grid-item {
+            width: 45%;
+            box-sizing: border-box;
+        }
+        #grid-floats,
+        #grid-flex {
+            text-align: center;
+            width: 90%;
+            margin: auto;
+        }
+    }
+    /* media queries between than 600px and 1024 */
+    
+    @media (min-width:601px) and (max-width:1024px) {
+        section {
+            margin: 0px;
+            padding: 0px;
+            width: 100%;
+            margin-left: 0px;
+        }
+        .grid-item:nth-child(1),
+        .grid-item:nth-child(2) {
+            width: 45%;
+            box-sizing: border-box;
+        }
+        .grid-item {
+            width: 30%;
+            box-sizing: border-box;
+        }
+        #grid-floats,
+        #grid-flex {
+            text-align: center;
+            width: 90%;
+            margin: auto;
+        }
+    }
