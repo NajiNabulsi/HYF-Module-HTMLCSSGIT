@@ -1,0 +1,162 @@
+:root {
+    --basicShadow: -3px -1px 20px rgba(0, 0, 0, 0.19), 0 6px 10px rgba(0, 0, 0, 0.562);
+    --h2Color: rgb(180, 24, 24);
+    --basicBorder: none;
+    --divColor: rgb(201, 199, 207);
+}
+
+.clear-both {
+    clear: both;
+}
+
+.hcolor {
+    color: var(--h2Color);
+}
+
+.flexible {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem;
+    height: 1rem;
+}
+
+
+/*the end for Global divs*/
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(227, 225, 233);
+}
+
+.head {
+    width: 80%;
+    margin: auto;
+}
+
+
+/*the profile div*/
+
+.profile {
+    margin: 5rem;
+}
+
+.my-photo {
+    border-radius: 30%;
+    float: left;
+    width: 300px;
+    height: 400px;
+    box-shadow: var(--basicShadow);
+}
+
+.name {
+    text-align: center;
+    float: right;
+    margin: 2rem;
+}
+
+.my-name {
+    color: rgb(170, 0, 0);
+    font-size: 3rem;
+    text-shadow: 5px 2px rgba(65, 62, 62, 0.295);
+}
+
+.underLien {
+    text-decoration-line: underline;
+    text-decoration-color: red;
+}
+
+.about {
+    margin: auto;
+    border: var(--basicBorder);
+    box-shadow: var(--basicShadow);
+    margin-top: 3rem;
+    background-color: var(--divColor);
+    padding: 1.5rem;
+}
+
+
+/*this section for Talent div*/
+
+.talent {
+    margin-top: 3rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.languge {
+    background-color: var(--divColor);
+    border: var(--basicBorder);
+    float: left;
+    width: 45%;
+    padding: 1.5rem;
+    margin-left: 0;
+    box-sizing: border-box;
+    box-shadow: var( --basicShadow);
+}
+
+.languge h1 {
+    color: rgb(170, 0, 0);
+}
+
+.english h2 {
+    padding-right: 2.3rem;
+}
+
+.arabic h2 {
+    padding-right: 2.8rem;
+}
+
+.microsoft-exel h2 {
+    padding-right: 1rem;
+}
+
+.skills {
+    background-color: var(--divColor);
+    border: var(--basicBorder);
+    float: right;
+    width: 45%;
+    padding: 1.5rem;
+    box-sizing: border-box;
+    box-shadow: var( --basicShadow);
+}
+
+.skills h1 {
+    color: rgb(170, 0, 0);
+}
+
+.experience {
+    background-color: var(--divColor);
+    border: var(--basicBorder);
+    box-shadow: var(--basicShadow);
+    margin: 3rem 0rem;
+    padding: 1.5rem;
+}
+
+.experience h1 {
+    color: rgb(170, 0, 0);
+}
+
+.trining {
+    border: var(--basicBorder);
+    background-color: var(--divColor);
+    margin: 3rem 0rem;
+    padding: 1.5rem;
+    box-shadow: var(--basicShadow);
+}
+
+.trining h1 {
+    color: rgb(170, 0, 0);
+}
+
+.trining p {
+    font-size: 1.6rem;
+    letter-spacing: 0.5rem;
+    margin-bottom: 5rem;
+}
+
+ul {
+    margin-left: 2.5rem;
+}
